@@ -28,7 +28,7 @@ const Fetaures = () => {
                     src="/img/arrowl.png"
                     alt="arrow left"
                     layout="fill"
-                    objectFit="contain"
+                    sx={{ objectFit: 'contain' }}
 
                 />
             </Box>
@@ -39,7 +39,8 @@ const Fetaures = () => {
                             src={img}
                             alt="bannerImg"
                             layout="fill"
-                            objectFit="contain"
+
+                            sx={{ objectFit: 'contain' }}
                         />
                     </Box>
                 ))}
@@ -49,7 +50,7 @@ const Fetaures = () => {
                     src='/img/arrowr.png'
                     alt="rightArrow"
                     layout="fill"
-                    objectFit="contain"
+                    sx={{ objectFit: 'contain' }}
                 />
             </Box>
 
