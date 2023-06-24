@@ -4,8 +4,8 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
-const PizzaCard = ({ pizzaObj }) => {
-    const { name, image, price, description } = pizzaObj;
+const SaucesCard = ({ saucesObj }) => {
+    const { name, image, price, description } = saucesObj;
     const [showFullDesc, setShowFullDesc] = useState(false);
     const toggleDesc = () => {
         setShowFullDesc(!showFullDesc)
@@ -49,4 +49,4 @@ const PizzaCard = ({ pizzaObj }) => {
     )
 }
 
-export default PizzaCard;
+export default SaucesCard;

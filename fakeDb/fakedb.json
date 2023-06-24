@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Margherita",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": ["tomato sauce", "mozzarella"],
       "spicy": false,
       "vegetarian": true,
@@ -13,7 +13,7 @@
     {
       "id": 1,
       "name": "Pepperoni",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": ["tomato sauce", "mozzarella", "double pepperoni"],
       "spicy": false,
       "vegetarian": false,
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "name": "Rome",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -39,7 +39,7 @@
     {
       "id": 3,
       "name": "American Spicy",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -75,7 +75,7 @@
     {
       "id": 5,
       "name": "Pork & Feta",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -92,7 +92,7 @@
     {
       "id": 6,
       "name": "Quattro Formaggi",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "mozzarella",
         "cheddar cheese",
@@ -108,7 +108,7 @@
     {
       "id": 7,
       "name": "Carnivora",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -142,7 +142,7 @@
     {
       "id": 9,
       "name": "Honey Mustard Chicken",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -158,7 +158,7 @@
     {
       "id": 10,
       "name": "Hawaiian",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "mozzarella",
         "sweet chilli sauce",
@@ -191,7 +191,7 @@
     {
       "id": 12,
       "name": "Pastrami",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -225,7 +225,7 @@
     {
       "id": 14,
       "name": "Country",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -242,7 +242,7 @@
     {
       "id": 15,
       "name": "Hot Cheese",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -260,7 +260,7 @@
     {
       "id": 16,
       "name": "Ocean",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -277,7 +277,7 @@
     {
       "id": 17,
       "name": "BBQ",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",
@@ -296,7 +296,7 @@
     {
       "id": 18,
       "name": "Mexicana",
-      "description": "",
+      "description": "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
       "ingredients": [
         "tomato sauce",
         "mozzarella",

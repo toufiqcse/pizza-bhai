@@ -5,15 +5,16 @@ import HomeIcon from "@mui/icons-material/Home";
 import StoreIcon from "@mui/icons-material/Store";
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import { Box, Divider, Drawer, List, ListItemButton, ListItemIcon, ListItemText, Typography } from "@mui/material";
+import Link from "next/link";
 
 // data for nav menu
 const data = [
-    { name: "Home", icon: <HomeIcon /> },
-    { name: "Products", icon: <StoreIcon /> },
-    { name: "Menu", icon: <WidgetsIcon /> },
-    { name: "Events", icon: <EventIcon /> },
-    { name: "Blog", icon: <ArticleIcon /> },
-    { name: "Contact", icon: <ContactPageIcon /> },
+    { name: "Home", icon: <HomeIcon />, link: "/" },
+    { name: "Products", icon: <StoreIcon />, link: "/products" },
+    { name: "Menu", icon: <WidgetsIcon />, link: "/menu" },
+    { name: "Events", icon: <EventIcon />, link: "/events" },
+    { name: "Blog", icon: <ArticleIcon />, link: "/blog" },
+    { name: "Contact", icon: <ContactPageIcon />, link: "/contact" },
 ];
 
 
@@ -30,10 +31,12 @@ const NavbarDrawer = ({ open, setOpen }) => {
                 <Divider />
                 <List>
                     {data.map((item, index) => (
-                        <ListItemButton key={index}>
+
+                        <ListItemButton key={index} href={item.link}>
                             <ListItemIcon> {item.icon}</ListItemIcon>
                             <ListItemText primary={item.name} />
                         </ListItemButton>
+
                     ))}
                 </List>
             </Box>

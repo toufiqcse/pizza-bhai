@@ -11,11 +11,6 @@ export const PizzaCardStyle = {
     margin: "5px",
     borderRadius: "4px",
   },
-  // style={{
-  //   display: "grid",
-  //   gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
-  //   gap: "20px",
-  // }}
   title: {
     fontSize: "1.1rem",
     fontWeight: "bold",

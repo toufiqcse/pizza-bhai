@@ -1,11 +1,12 @@
-<Box sx={PizzaListStyle.container}>
-  <Typography variant="h3" sx={PizzaListStyle.title}>
-    {"THE BEST PIZZA IN TOWN"}
-  </Typography>
-  <Typography sx={PizzaListStyle.desc}>
-    {
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium delectus iure sit magnam molestias maxime magni libero quas error nihil?"
-    }
-  </Typography>
-  <Box></Box>
-</Box>;
+pizzaData.map((pizza, index) => {
+  const pizzaObject = pizza.pizza;
+  return (
+    <Grid sx={PizzaListStyle.wrapper} container spacing={3} key={index}>
+      {pizzaObject.map(
+        (pizzaObj, i) => (
+          console.log(pizzaObj), (<PizzaCard key={i} pizzaObj={pizzaObj} />)
+        )
+      )}
+    </Grid>
+  );
+});

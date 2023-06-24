@@ -1,11 +1,11 @@
+
 import { PizzaCardStyle } from "@/styles/PizzaCard.styles"
 import { Box, Typography, Card, CardActionArea, CardMedia, CardContent, Grid } from "@mui/material"
-import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 
-const PizzaCard = ({ pizzaObj }) => {
-    const { name, image, price, description } = pizzaObj;
+const DrinksCard = ({ drinksObj }) => {
+    const { name, image, price, description } = drinksObj;
     const [showFullDesc, setShowFullDesc] = useState(false);
     const toggleDesc = () => {
         setShowFullDesc(!showFullDesc)
@@ -49,4 +49,4 @@ const PizzaCard = ({ pizzaObj }) => {
     )
 }
 
-export default PizzaCard;
+export default DrinksCard;

@@ -33,13 +33,23 @@ export const PizzaListStyle = {
     width: "100%",
     padding: "0 2em",
   },
-  headerText: {
-    fontSize: "1rem",
-    fontWeight: "500",
-    color: "#444",
-  },
+
   linkText: {
     fontSize: "1rem",
     fontWeight: "500",
   },
+  headerText: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
 };
+
+// "& before": {
+//   content: "",
+//   borderTop: "2px solid",
+//   margin: "0 20px 0 0",
+//   flex: "1 0 20px",
+//   color: "#777",
+// },

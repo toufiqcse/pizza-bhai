@@ -4,6 +4,8 @@ import { Box, CircularProgress, Grid, Typography } from "@mui/material";
 import { PizzaListStyle } from "@/styles/PizzaList.styles";
 import Link from "next/link";
 import PizzaCard from "./components/Pizza/PizzaCard";
+import DrinksCard from "./components/Drinks/DrinksCard";
+import SaucesCard from "./components/Sauces/SaucesCard";
 
 const Home = ({ pizzaData }) => {
   // method for loading spinner while data fetching
@@ -11,6 +13,10 @@ const Home = ({ pizzaData }) => {
   useEffect(() => {
     setLoading(false);
   }, [pizzaData]);
+
+  const pizzaArray = pizzaData.products.pizza; //pizza data extract from main object
+  const drinksArray = pizzaData.products.drinks; //drinks data extract from main object
+  const saucesArray = pizzaData.products.sauces; //drinks data extract from main object
 
   return (
     <>
@@ -37,37 +43,53 @@ const Home = ({ pizzaData }) => {
         </Typography>
 
         <Box sx={PizzaListStyle.ProductHeading}>
-          <Typography sx={PizzaListStyle.headerText}>
-            {"Latest Pizza"}
-          </Typography>
-          <Link href="#" sx={PizzaListStyle.linkText}>
-            {"See All"}
-          </Link>
+          <Typography variant="h5">{"Latest Pizza"}</Typography>
         </Box>
-
+        {/* data fetching from pizza array */}
         <>
           {loading ? (
             <CircularProgress />
           ) : (
-            pizzaData.map((pizza, index) => {
-              const pizzaObject = pizza.pizza; // extract from main array
-              return (
-                <Grid
-                  sx={PizzaListStyle.wrapper}
-                  container
-                  spacing={3}
-                  key={index}
-                >
-                  {pizzaObject.map(
-                    (pizzaObj, i) => (
-                      console.log(pizzaObj),
-                      (<PizzaCard key={i} pizzaObj={pizzaObj} />)
-                    )
-                  )}
-                </Grid>
-              );
-            })
+            <Grid sx={PizzaListStyle.wrapper} container spacing={3}>
+              {pizzaArray.map(
+                (pizzaObj, i) => (
+                  console.log(pizzaObj),
+                  (<PizzaCard key={i} pizzaObj={pizzaObj} />)
+                )
+              )}
+              ;
+            </Grid>
           )}
+
+          {/* drinks data  */}
+          <Box style={{ margin: "2em 0" }} sx={PizzaListStyle.ProductHeading}>
+            <Typography variant="h5">{"Latest Drinks"}</Typography>
+          </Box>
+
+          <Grid sx={PizzaListStyle.wrapper} container spacing={3}>
+            {drinksArray.map(
+              (drinksObj, i) => (
+                console.log(drinksObj),
+                (<DrinksCard key={i} drinksObj={drinksObj} />)
+              )
+            )}
+            ;
+          </Grid>
+
+          {/* sauces data */}
+          <Box style={{ margin: "2em 0" }} sx={PizzaListStyle.ProductHeading}>
+            <Typography variant="h5">{"Latest Sauces"}</Typography>
+          </Box>
+
+          <Grid sx={PizzaListStyle.wrapper} container spacing={3}>
+            {saucesArray.map(
+              (saucesObj, i) => (
+                console.log(saucesObj),
+                (<SaucesCard key={i} saucesObj={saucesObj} />)
+              )
+            )}
+            ;
+          </Grid>
         </>
       </Box>
     </>
