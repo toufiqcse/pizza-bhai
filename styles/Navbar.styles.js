@@ -12,7 +12,7 @@ export const NavStyle = {
 
   logo: {
     color: "white",
-    fontSize: "1.8rem",
+    fontSize: { xs: "1.2rem", sm: "1.6rem", md: "1.8rem" },
   },
 
   MenuIcon: {
@@ -33,9 +33,9 @@ export const NavStyle = {
 
   texts: {
     color: "white",
-    fontSize: "1.1rem",
+    fontSize: { xs: "0rem", md: "1.1rem" },
     "& p": {
-      fontSize: ".8rem",
+      fontSize: { xs: "0rem", md: "0.8rem" },
     },
   },
 

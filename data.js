@@ -4,7 +4,8 @@ export const pizzaData = [
       {
         id: 1,
         name: "Pepperoni",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: ["tomato sauce", "mozzarella", "double pepperoni"],
         spicy: false,
         vegetarian: false,
@@ -14,7 +15,8 @@ export const pizzaData = [
       {
         id: 2,
         name: "Rome",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -31,7 +33,8 @@ export const pizzaData = [
       {
         id: 4,
         name: "Quattro Stagioni",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -49,7 +52,8 @@ export const pizzaData = [
       {
         id: 6,
         name: "Quattro Formaggi",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "mozzarella",
           "cheddar cheese",
@@ -65,7 +69,8 @@ export const pizzaData = [
       {
         id: 7,
         name: "Carnivora",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -82,7 +87,8 @@ export const pizzaData = [
       {
         id: 8,
         name: "Louisiana Chicken",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "marinated chicken",
           "TABASCO spicy sauce",
@@ -99,7 +105,8 @@ export const pizzaData = [
       {
         id: 9,
         name: "Honey Mustard Chicken",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -115,7 +122,8 @@ export const pizzaData = [
       {
         id: 10,
         name: "Hawaiian",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "mozzarella",
           "sweet chilli sauce",
@@ -132,7 +140,8 @@ export const pizzaData = [
       {
         id: 11,
         name: "Classic",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -148,7 +157,8 @@ export const pizzaData = [
       {
         id: 12,
         name: "Pastrami",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -165,7 +175,8 @@ export const pizzaData = [
       {
         id: 13,
         name: "Hot Pastrami",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "Honey Mustard sauce",
           "mozzarella",
@@ -182,7 +193,8 @@ export const pizzaData = [
       {
         id: 14,
         name: "Country",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -199,7 +211,8 @@ export const pizzaData = [
       {
         id: 15,
         name: "Hot Cheese",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -217,7 +230,8 @@ export const pizzaData = [
       {
         id: 16,
         name: "Ocean",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -234,7 +248,8 @@ export const pizzaData = [
       {
         id: 17,
         name: "BBQ",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",
@@ -253,7 +268,8 @@ export const pizzaData = [
       {
         id: 18,
         name: "Mexicana",
-        description: "",
+        description:
+          "Pizza is a beloved and iconic dish that originated in Italy but has become popular worldwide",
         ingredients: [
           "tomato sauce",
           "mozzarella",

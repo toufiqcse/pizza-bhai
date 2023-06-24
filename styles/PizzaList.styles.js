@@ -6,22 +6,23 @@ export const PizzaListStyle = {
   },
 
   desc: {
-    fontSize: "1.2rem",
+    fontSize: { xs: "0.9rem", sm: "1.1rem", md: "1.2rem" },
     color: "#444",
     lineHeight: 1,
-    width: "70%",
-    marginBottom: "1.5em",
+    width: "80%",
+    marginBottom: "1em",
+    textAlign: "center",
   },
   wrapper: {
+    margin: "auto",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    flexWrap: "wrap",
     width: "100%",
-    padding: "0",
+    // padding: "0 0.5em",
   },
   title: {
-    fontSize: "2rem",
+    fontSize: { xs: "1.3rem", sm: "1.5rem", md: "2rem" },
     fontWeight: "600",
     margin: "0.5em 0",
   },
@@ -29,6 +30,8 @@ export const PizzaListStyle = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+    width: "100%",
+    padding: "0 2em",
   },
   headerText: {
     fontSize: "1rem",
